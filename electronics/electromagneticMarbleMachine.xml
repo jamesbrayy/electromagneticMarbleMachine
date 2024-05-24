@@ -1,0 +1,2456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\1091560\OneDrive - Christ Church Grammar School\Computer Stuff\Desktop\folder\engineering studies\project files\electromagneticMassDriver\electromagneticMassDriver.kicad_sch</source>
+    <date>13/05/2024 9:56:11 PM</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Marble Machine Circuitry</title>
+        <company>James Bray - 11EST1</company>
+        <rev>6</rev>
+        <date>2024-02-27</date>
+        <source>electromagneticMassDriver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm</footprint>
+      <datasheet>https://www.altronics.com.au/p/r4825-lelon-100uf-35v-high-temp.-pcb-electrolytic-capacitor/</datasheet>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35c4d0ea-98b3-473e-81e8-02c132cb47c1</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>470uF</value>
+      <footprint>Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14073232-bcef-4171-86ef-c3a0e63bf91a</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm</footprint>
+      <datasheet>https://www.altronics.com.au/p/r4825-lelon-100uf-35v-high-temp.-pcb-electrolytic-capacitor/</datasheet>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71564f82-06ca-44e7-a2d3-c17ad24fd927</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>470uF</value>
+      <footprint>Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>506793bc-a5ff-4090-b900-2ac4dd1df3d0</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22pF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d4b024a-a524-485d-a458-273589a6e8df</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22pF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee632687-3568-4718-9365-9d4859241df8</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ae94bc9-119d-4cdf-b9ad-e57f0a8934ea</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5aa8a469-beb8-464a-a817-6d8e7d36d942</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>680uF</value>
+      <datasheet>https://www.altronics.com.au/p/r4825-lelon-100uf-35v-high-temp.-pcb-electrolytic-capacitor/</datasheet>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c27ecec-4978-477a-b707-09c0981e6c6f</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>680uF</value>
+      <datasheet>https://www.altronics.com.au/p/r4825-lelon-100uf-35v-high-temp.-pcb-electrolytic-capacitor/</datasheet>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a36c1e5-b829-4d78-b3aa-0035cd9bf81c</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>680uF</value>
+      <datasheet>https://www.altronics.com.au/p/r4825-lelon-100uf-35v-high-temp.-pcb-electrolytic-capacitor/</datasheet>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10e76c83-00d9-4e18-9a22-e6c1bd16ce5a</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>680uF</value>
+      <datasheet>https://www.altronics.com.au/p/r4825-lelon-100uf-35v-high-temp.-pcb-electrolytic-capacitor/</datasheet>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>423d42c3-1414-4653-888b-e4aa7ff29430</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>680uF</value>
+      <datasheet>https://www.altronics.com.au/p/r4825-lelon-100uf-35v-high-temp.-pcb-electrolytic-capacitor/</datasheet>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86c8b007-06ea-4d7e-a0ef-2e4dfcb1d4ab</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0dcb0ee9-3b55-43f5-bf99-bd32bbe336d6</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm</footprint>
+      <datasheet>https://www.altronics.com.au/p/r4825-lelon-100uf-35v-high-temp.-pcb-electrolytic-capacitor/</datasheet>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cb5f2e8-c833-489b-a2a1-71295b82313a</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>470uF</value>
+      <footprint>Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>233557a9-9712-415f-93bf-440315130147</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>6A10 Diode</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>959275e5-6fd0-4456-be26-2591f2f83676</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>6A10 Diode</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90c7c8f2-5ec0-43cd-a208-12f8f5bdc301</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>Red LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003</field>
+        <field name="Description">LED RED CLEAR 3MM ROUND T/H</field>
+        <field name="Digi-Key_PN">732-5013-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">151033RS03000</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="151033RS03000" description="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Digi-Key_PN" value="732-5013-ND"/>
+      <property name="MPN" value="151033RS03000"/>
+      <property name="Category" value="Optoelectronics"/>
+      <property name="Family" value="LED Indication - Discrete"/>
+      <property name="DK_Datasheet_Link" value="https://katalog.we-online.de/led/datasheet/151033RS03000.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003"/>
+      <property name="Description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Manufacturer" value="Wurth Electronics Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="ki_keywords" value="732-5013-ND WL-TMRW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6451c636-4fa6-49a8-bb42-cf3ddd264e9d</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>6A10 Diode</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb4412dc-0987-4c87-9488-d2c004a70a3d</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>Green LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003</field>
+        <field name="Description">LED RED CLEAR 3MM ROUND T/H</field>
+        <field name="Digi-Key_PN">732-5013-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">151033RS03000</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="151033RS03000" description="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Digi-Key_PN" value="732-5013-ND"/>
+      <property name="MPN" value="151033RS03000"/>
+      <property name="Category" value="Optoelectronics"/>
+      <property name="Family" value="LED Indication - Discrete"/>
+      <property name="DK_Datasheet_Link" value="https://katalog.we-online.de/led/datasheet/151033RS03000.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003"/>
+      <property name="Description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Manufacturer" value="Wurth Electronics Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="ki_keywords" value="732-5013-ND WL-TMRW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>114d7458-0834-4875-b6d3-f26485024c13</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>IR LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003</field>
+        <field name="Description">LED RED CLEAR 3MM ROUND T/H</field>
+        <field name="Digi-Key_PN">732-5013-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">151033RS03000</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="151033RS03000" description="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Digi-Key_PN" value="732-5013-ND"/>
+      <property name="MPN" value="151033RS03000"/>
+      <property name="Category" value="Optoelectronics"/>
+      <property name="Family" value="LED Indication - Discrete"/>
+      <property name="DK_Datasheet_Link" value="https://katalog.we-online.de/led/datasheet/151033RS03000.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003"/>
+      <property name="Description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Manufacturer" value="Wurth Electronics Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="ki_keywords" value="732-5013-ND WL-TMRW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c771e05e-99cc-479c-bfb9-9a6c55b930bd</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>IR LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003</field>
+        <field name="Description">LED RED CLEAR 3MM ROUND T/H</field>
+        <field name="Digi-Key_PN">732-5013-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">151033RS03000</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="151033RS03000" description="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Digi-Key_PN" value="732-5013-ND"/>
+      <property name="MPN" value="151033RS03000"/>
+      <property name="Category" value="Optoelectronics"/>
+      <property name="Family" value="LED Indication - Discrete"/>
+      <property name="DK_Datasheet_Link" value="https://katalog.we-online.de/led/datasheet/151033RS03000.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003"/>
+      <property name="Description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Manufacturer" value="Wurth Electronics Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="ki_keywords" value="732-5013-ND WL-TMRW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e67d2a68-bb56-41a8-a564-0334cd9faf65</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>White LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003</field>
+        <field name="Description">LED RED CLEAR 3MM ROUND T/H</field>
+        <field name="Digi-Key_PN">732-5013-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">151033RS03000</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="" part="151033RS03000_1" description="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Digi-Key_PN" value="732-5013-ND"/>
+      <property name="MPN" value="151033RS03000"/>
+      <property name="Category" value="Optoelectronics"/>
+      <property name="Family" value="LED Indication - Discrete"/>
+      <property name="DK_Datasheet_Link" value="https://katalog.we-online.de/led/datasheet/151033RS03000.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003"/>
+      <property name="Description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Manufacturer" value="Wurth Electronics Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="ki_keywords" value="732-5013-ND WL-TMRW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc1d026d-d8a7-4826-b4f9-7c0fc4a99d9a</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>6A10 Diode</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf8de4ff-cfdd-4820-b7d3-460527c24827</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>70TPS12</value>
+      <datasheet>https://www.vishay.com/docs/94391/vs-70tpspbf.pdf</datasheet>
+      <fields>
+        <field name="Description">Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247</field>
+        <field name="Height">5.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VS-70TPS12PBF</field>
+      </fields>
+      <libsource lib="" part="70TPS12PBF_1" description="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <property name="Description" value="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <property name="Height" value="5.5"/>
+      <property name="element14 Part Number" value=""/>
+      <property name="element14 Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="VS-70TPS12PBF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b090997-eb0b-4e78-884d-dbb24aeecd75</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>6A10 Diode</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a86da75-2cb9-43b8-8f9f-4a378818cc3b</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>70TPS12</value>
+      <datasheet>https://www.vishay.com/docs/94391/vs-70tpspbf.pdf</datasheet>
+      <fields>
+        <field name="Description">Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247</field>
+        <field name="Height">5.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VS-70TPS12PBF</field>
+      </fields>
+      <libsource lib="" part="70TPS12PBF_1" description="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <property name="Description" value="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <property name="Height" value="5.5"/>
+      <property name="element14 Part Number" value=""/>
+      <property name="element14 Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="VS-70TPS12PBF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6b71bef-14dc-4e6c-843d-cf7fa169195b</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>6A10 Diode</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce39c3ab-18ad-47b7-a86a-11fcf600159b</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>6A10 Diode</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64e3e6f5-1b02-45a2-bf79-c693b32e8abb</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>IR LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003</field>
+        <field name="Description">LED RED CLEAR 3MM ROUND T/H</field>
+        <field name="Digi-Key_PN">732-5013-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">151033RS03000</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="151033RS03000" description="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Digi-Key_PN" value="732-5013-ND"/>
+      <property name="MPN" value="151033RS03000"/>
+      <property name="Category" value="Optoelectronics"/>
+      <property name="Family" value="LED Indication - Discrete"/>
+      <property name="DK_Datasheet_Link" value="https://katalog.we-online.de/led/datasheet/151033RS03000.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003"/>
+      <property name="Description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Manufacturer" value="Wurth Electronics Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="ki_keywords" value="732-5013-ND WL-TMRW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba9fabe9-5117-4290-a56b-d0d947217c57</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>IR LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003</field>
+        <field name="Description">LED RED CLEAR 3MM ROUND T/H</field>
+        <field name="Digi-Key_PN">732-5013-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">151033RS03000</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="151033RS03000" description="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Digi-Key_PN" value="732-5013-ND"/>
+      <property name="MPN" value="151033RS03000"/>
+      <property name="Category" value="Optoelectronics"/>
+      <property name="Family" value="LED Indication - Discrete"/>
+      <property name="DK_Datasheet_Link" value="https://katalog.we-online.de/led/datasheet/151033RS03000.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003"/>
+      <property name="Description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Manufacturer" value="Wurth Electronics Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="ki_keywords" value="732-5013-ND WL-TMRW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>527a5d2a-cc09-4104-b9e4-5be2bb0d0ad7</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>IR LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003</field>
+        <field name="Description">LED RED CLEAR 3MM ROUND T/H</field>
+        <field name="Digi-Key_PN">732-5013-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">151033RS03000</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="151033RS03000" description="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Digi-Key_PN" value="732-5013-ND"/>
+      <property name="MPN" value="151033RS03000"/>
+      <property name="Category" value="Optoelectronics"/>
+      <property name="Family" value="LED Indication - Discrete"/>
+      <property name="DK_Datasheet_Link" value="https://katalog.we-online.de/led/datasheet/151033RS03000.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003"/>
+      <property name="Description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Manufacturer" value="Wurth Electronics Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="ki_keywords" value="732-5013-ND WL-TMRW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7fe4cf9-0076-4e36-a254-0df0f87b49b1</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>White LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003</field>
+        <field name="Description">LED RED CLEAR 3MM ROUND T/H</field>
+        <field name="Digi-Key_PN">732-5013-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">151033RS03000</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="" part="151033RS03000_1" description="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Digi-Key_PN" value="732-5013-ND"/>
+      <property name="MPN" value="151033RS03000"/>
+      <property name="Category" value="Optoelectronics"/>
+      <property name="Family" value="LED Indication - Discrete"/>
+      <property name="DK_Datasheet_Link" value="https://katalog.we-online.de/led/datasheet/151033RS03000.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003"/>
+      <property name="Description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Manufacturer" value="Wurth Electronics Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="ki_keywords" value="732-5013-ND WL-TMRW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da49ad78-c3a9-4742-9ab9-448cf86bb281</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>White LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003</field>
+        <field name="Description">LED RED CLEAR 3MM ROUND T/H</field>
+        <field name="Digi-Key_PN">732-5013-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">151033RS03000</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="" part="151033RS03000_1" description="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Digi-Key_PN" value="732-5013-ND"/>
+      <property name="MPN" value="151033RS03000"/>
+      <property name="Category" value="Optoelectronics"/>
+      <property name="Family" value="LED Indication - Discrete"/>
+      <property name="DK_Datasheet_Link" value="https://katalog.we-online.de/led/datasheet/151033RS03000.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003"/>
+      <property name="Description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Manufacturer" value="Wurth Electronics Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="ki_keywords" value="732-5013-ND WL-TMRW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2dbb8a3-575a-4bb8-8c65-79081bf0bb0a</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>White LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003</field>
+        <field name="Description">LED RED CLEAR 3MM ROUND T/H</field>
+        <field name="Digi-Key_PN">732-5013-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">151033RS03000</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="" part="151033RS03000_1" description="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Digi-Key_PN" value="732-5013-ND"/>
+      <property name="MPN" value="151033RS03000"/>
+      <property name="Category" value="Optoelectronics"/>
+      <property name="Family" value="LED Indication - Discrete"/>
+      <property name="DK_Datasheet_Link" value="https://katalog.we-online.de/led/datasheet/151033RS03000.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003"/>
+      <property name="Description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="Manufacturer" value="Wurth Electronics Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="LED RED CLEAR 3MM ROUND T/H"/>
+      <property name="ki_keywords" value="732-5013-ND WL-TMRW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87c9c96c-eee0-49d1-bf1c-bedbe89b051f</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>6A10 Diode</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5f1403c-deb0-4911-9359-8400ef14c7e4</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>70TPS12</value>
+      <datasheet>https://www.vishay.com/docs/94391/vs-70tpspbf.pdf</datasheet>
+      <fields>
+        <field name="Description">Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247</field>
+        <field name="Height">5.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VS-70TPS12PBF</field>
+      </fields>
+      <libsource lib="" part="70TPS12PBF_1" description="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <property name="Description" value="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <property name="Height" value="5.5"/>
+      <property name="element14 Part Number" value=""/>
+      <property name="element14 Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="VS-70TPS12PBF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50ef1691-7513-480d-bc2a-0718b20ddb20</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>6A10 Diode</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>699f6b3e-c0af-4ad6-a0d0-fdd89c24d252</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>70TPS12</value>
+      <datasheet>https://www.vishay.com/docs/94391/vs-70tpspbf.pdf</datasheet>
+      <fields>
+        <field name="Description">Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247</field>
+        <field name="Height">5.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VS-70TPS12PBF</field>
+      </fields>
+      <libsource lib="" part="70TPS12PBF_1" description="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <property name="Description" value="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <property name="Height" value="5.5"/>
+      <property name="element14 Part Number" value=""/>
+      <property name="element14 Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="VS-70TPS12PBF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97052c10-ff75-4f3e-95d9-f8eeca04719c</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>6A10 Diode</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>171696be-c43c-47bb-b1a4-f92ee7b930e9</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>70TPS12</value>
+      <datasheet>https://www.vishay.com/docs/94391/vs-70tpspbf.pdf</datasheet>
+      <fields>
+        <field name="Description">Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247</field>
+        <field name="Height">5.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VS-70TPS12PBF</field>
+      </fields>
+      <libsource lib="" part="70TPS12PBF_1" description="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <property name="Description" value="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <property name="Height" value="5.5"/>
+      <property name="element14 Part Number" value=""/>
+      <property name="element14 Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="VS-70TPS12PBF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8c40cba-b7cf-4e01-a028-d2a16721eb55</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>6A10 Diode</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29a7156e-6098-47cb-89c8-d0af1b3ce90b</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>6A10 Diode</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d72f34b-4c11-42d1-bf55-e2d2f7d29e53</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>6A10 Diode</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81fc2a5a-8efb-4cde-8913-6c3e3ea0a02b</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>70TPS12</value>
+      <datasheet>https://www.vishay.com/docs/94391/vs-70tpspbf.pdf</datasheet>
+      <fields>
+        <field name="Description">Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247</field>
+        <field name="Height">5.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VS-70TPS12PBF</field>
+      </fields>
+      <libsource lib="" part="70TPS12PBF_1" description="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <property name="Description" value="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <property name="Height" value="5.5"/>
+      <property name="element14 Part Number" value=""/>
+      <property name="element14 Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="VS-70TPS12PBF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4013a00-e177-444f-b88b-0478229c67f0</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>6A10 Diode</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37b5609f-57ac-44ed-a1fd-77cdffa1fdf2</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>6A10 Diode</value>
+      <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa30162c-0a63-42d2-90b4-1356657600d9</tstamps>
+    </comp>
+    <comp ref="DS1">
+      <value>~</value>
+      <libsource lib="customSymbols" part="voltmeter_display" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75c77668-31a3-432e-9dff-2eabe9fc57e8</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>SPST Relay</value>
+      <datasheet>https://www.altronics.com.au/p/s4252b-7.5a-24vdc-spst-pcb-mount-relay/</datasheet>
+      <libsource lib="Relay" part="Relay_SPST-NO" description="Relay SPST, Normally Open, EN50005"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Relay SPST, Normally Open, EN50005"/>
+      <property name="ki_keywords" value="Single Pole Relay SPST NO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e95a4089-84c3-437e-a557-a843c0c266bc</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>100uH</value>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f103f934-f5b0-4e61-8ce0-708aca2a6424</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>150uH</value>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd3bef2a-38be-40ff-9f7f-e0f24739d0b9</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>100uH</value>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1cd883f-33ec-46c5-b9fe-170f60f3725a</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>100uH</value>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ecbabd5-ba22-49cf-ae1f-ee02bb012343</tstamps>
+    </comp>
+    <comp ref="L5">
+      <value>100uH</value>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6c3ea4a-2de8-468f-a14e-b584cfebd3a5</tstamps>
+    </comp>
+    <comp ref="L6">
+      <value>100uH</value>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9204d204-4292-422f-9d82-5d31893d7168</tstamps>
+    </comp>
+    <comp ref="L7">
+      <value>100uH</value>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>878fd719-30e9-486d-8384-bf3a77320d89</tstamps>
+    </comp>
+    <comp ref="L8">
+      <value>100uH</value>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c991f5b4-d828-49be-83f3-efa863e0e76c</tstamps>
+    </comp>
+    <comp ref="L9">
+      <value>12V solenoid</value>
+      <libsource lib="customSymbols" part="solenoid" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd4f0187-ab92-43fe-8985-36474d6d6941</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N2222</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca310467-72ca-438d-910c-5399ec7d6f3c</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2N2222</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56d394f3-3de1-449e-a62e-75d472b79a0d</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>PT334-6B</value>
+      <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="NPN phototransistor, collector/emitter"/>
+      <property name="ki_keywords" value="phototransistor NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a798469f-7c1f-4c11-93d4-b561125d60ae</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>PT334-6B</value>
+      <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="NPN phototransistor, collector/emitter"/>
+      <property name="ki_keywords" value="phototransistor NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>caad6809-7144-486a-9fd1-72d4e23a935d</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>2N2222</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb31bc14-680d-49fc-b145-82ddfba1c205</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>2N2222</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66b8917f-f34f-4124-8682-7670b3f78a5a</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>2N2222</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44b5a1eb-fe1d-444b-9f77-9e49571fd196</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>PT334-6B</value>
+      <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="NPN phototransistor, collector/emitter"/>
+      <property name="ki_keywords" value="phototransistor NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a206133d-93bc-4210-881b-9bf91ee739ca</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>PT334-6B</value>
+      <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="NPN phototransistor, collector/emitter"/>
+      <property name="ki_keywords" value="phototransistor NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a2f8d50-0b3a-4e5e-86cd-39e1b40c41f0</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>PT334-6B</value>
+      <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="NPN phototransistor, collector/emitter"/>
+      <property name="ki_keywords" value="phototransistor NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>924edd51-b36b-400b-8964-4312c5224937</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>2N2222</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26326be7-8c11-4c8f-a789-d7ddd6b58d5b</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>2N2222</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC547" description="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab482be3-1063-415b-a799-9272cae60d41</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62af6231-4483-485f-bcb2-e330a5e88e63</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>330Ω</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>269b50eb-cd27-4d2b-970a-415a502fd1f5</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>330Ω</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dcf4e08-e41d-45e5-9e3c-ea61072fb2c5</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330Ω</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>011f8139-73cc-48f7-8e76-60b1ce5238c7</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1KΩ</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44d1521d-d3b2-4953-880d-d3765d293d86</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>330Ω</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12db4b63-0f8d-46d5-9eed-071a84f8ec09</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>330Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11129edf-c917-48ef-b9ce-6c0314d339f6</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1KΩ</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4630f7e3-d4df-4ca8-973a-803735bada2f</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>330Ω</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1e24095-7d1c-4c77-bc8a-d542428f9936</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>330Ω</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45747ac7-9caa-42ba-8686-b51f27e5d66c</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>330Ω</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>286f3932-dcad-412c-a9b8-19534fa359d5</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>330Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ae0b535-0e18-4564-8cb4-6469d58d66f0</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>330Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d5643a6-d9e5-4249-a831-fe92f4a14f82</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>330Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b4e4cc9-80de-4a5b-aae6-849020e87f35</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10kΩ</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>085e3738-d596-469b-aef1-9df7c8039d11</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>200W 1kΩ</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d549dc2-1991-4721-a69e-39fa761ef5a7</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1KΩ</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30690350-6ec3-4168-90ff-67993e549300</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Latching Pushbotton</value>
+      <libsource lib="customSymbols" part="latching_pushbutton" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4563301-34c2-4961-a0b6-e751758ab654</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>Cherry MX Switch</value>
+      <footprint>Cherry MX:Cherry-MX_PCB-Mounted</footprint>
+      <libsource lib="" part="Cherry_MX_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27fe62cb-2ad9-4176-a8c3-8ff1f2894bdd</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>DPST Switch</value>
+      <libsource lib="Switch" part="SW_DPST" description="Double Pole Single Throw (DPST) Switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Double Pole Single Throw (DPST) Switch"/>
+      <property name="ki_keywords" value="switch dual double-pole single-throw OFF-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba753396-85e1-4ea4-8e2e-36dc639ab270</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>Cherry MX Switch</value>
+      <footprint>Cherry MX:Cherry-MX_PCB-Mounted</footprint>
+      <libsource lib="Cherry_MX" part="Cherry_MX" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c95938f-99a5-4738-a20e-793c28d12d0f</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>SPST Switch</value>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f90e119-e9bc-411e-a950-084dd2a24610</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM2576T-5</value>
+      <footprint>Package_TO_SOT_THT:TO-220-5_Vertical</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2576.pdf</datasheet>
+      <libsource lib="" part="LM2576T-5_2" description="5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5"/>
+      <property name="ki_keywords" value="Step-Down Voltage Regulator 5V 3A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3585f90d-2472-4c65-8d75-94332f80e3dd</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM2576T-12</value>
+      <footprint>Package_TO_SOT_THT:TO-220-5_Vertical</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2576.pdf</datasheet>
+      <libsource lib="" part="LM2576T-5_1" description="5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5"/>
+      <property name="ki_keywords" value="Step-Down Voltage Regulator 5V 3A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>feed37fa-0d8b-4ff7-94c6-8f6fdf45fcc3</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>ATmega328P-PU</value>
+      <footprint>Package_DIP:DIP-28_W7.62mm</footprint>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega328P-P" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47f4ea63-7a40-4536-9526-6e4fb7701f90</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>LM2576T-5</value>
+      <footprint>Package_TO_SOT_THT:TO-220-5_Vertical</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2576.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="LM2576T-5" description="5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5"/>
+      <property name="ki_keywords" value="Step-Down Voltage Regulator 5V 3A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66d1d84d-7d6d-42d6-a21f-2b961edf479c</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>UGN3503UA</value>
+      <datasheet>http://www.allegromicro.com/~/media/Files/Datasheets/A1369-Datasheet.ashx?la=en</datasheet>
+      <libsource lib="Sensor_Current" part="A1369xUA-10" description="Programmable Linear Hall Effect Sensor, -8.5 to -12.5mV/G, SIP-3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Programmable Linear Hall Effect Sensor, -8.5 to -12.5mV/G, SIP-3"/>
+      <property name="ki_keywords" value="hall effect current monitor sensor isolated"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f98a902-87a6-4a73-b8e8-6d2b3e7a6be5</tstamps>
+    </comp>
+    <comp ref="V1">
+      <value>20V 3.25A</value>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61542d14-da2a-4ab6-aeec-2166a1e23409</tstamps>
+    </comp>
+    <comp ref="V2">
+      <value>405V Boost Converter</value>
+      <datasheet>https://www.infineon.com/dgdl/irs2505lpbf.pdf?fileId=5546d462533600a40153567ad42c2819</datasheet>
+      <libsource lib="voltageBoost" part="voltageBoostModule" description="Boost PFC and SMPS Control IC, Critical Conduction Mode, SOT-23-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Boost PFC and SMPS Control IC, Critical Conduction Mode, SOT-23-5"/>
+      <property name="ki_keywords" value="pfc controller crcm dcm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edb6a991-a720-4349-84a8-1e13dc1ee939</tstamps>
+    </comp>
+    <comp ref="V3">
+      <value>9V Battery</value>
+      <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Multiple-cell battery"/>
+      <property name="ki_keywords" value="batt voltage-source cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cd349d7-1149-4aef-ab4f-d5959b188222</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>20MHz</value>
+      <footprint>Crystal:Crystal_HC49-U_Vertical</footprint>
+      <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="electromagneticMassDriver.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal, small symbol"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6423e23c-931a-4b5f-ba76-08d64c71bbc5</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="151033RS03000_1">
+      <description>LED RED CLEAR 3MM ROUND T/H</description>
+      <docs>https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</docs>
+      <fields>
+        <field name="Reference">D18</field>
+        <field name="Value">WhiteLED</field>
+        <field name="Footprint">digikey-footprints:LED_3mm_Radial</field>
+        <field name="Datasheet">https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</field>
+        <field name="MPN">151033RS03000</field>
+        <field name="Digi-Key_PN">732-5013-ND</field>
+        <field name="Category">Optoelectronics</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="DK_Datasheet_Link">https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003</field>
+        <field name="Description">LED RED CLEAR 3MM ROUND T/H</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="70TPS12PBF_1">
+      <description>Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247</description>
+      <docs>https://www.vishay.com/docs/94391/vs-70tpspbf.pdf</docs>
+      <fields>
+        <field name="Reference">D4</field>
+        <field name="Value">70TPS12PBF</field>
+        <field name="Footprint">TO545P550X1560X2505-3P</field>
+        <field name="Datasheet">https://www.vishay.com/docs/94391/vs-70tpspbf.pdf</field>
+        <field name="Description">Thyristor SCR 70A 1.2KV Super-247 Vishay, VS-70TPS12PBF, Thyristor, 1200V 70A, 100mA 3-Pin, Super-247</field>
+        <field name="Height">5.5</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">VS-70TPS12PBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Cherry_MX_1">
+      <fields>
+        <field name="Reference">S3</field>
+        <field name="Value">on switch</field>
+        <field name="Footprint">Cherry MX:Cherry-MX_PCB-Mounted</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LM2576T-5_1">
+      <description>5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2576.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">LM2576T-12</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-5_Vertical</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2576.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="~{ON}/OFF" type="input"/>
+        <pin num="4" name="VO" type="output"/>
+        <pin num="5" name="FB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="LM2576T-5_2">
+      <description>5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2576.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">LM2576T-5</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-5_Vertical</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2576.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="~{ON}/OFF" type="input"/>
+        <pin num="4" name="VO" type="output"/>
+        <pin num="5" name="FB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Cherry_MX" part="Cherry_MX">
+      <fields>
+        <field name="Reference">S2</field>
+        <field name="Value">Cherry MX Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">V1</field>
+        <field name="Value">20V 3.25A</field>
+        <field name="Footprint">TerminalBlock:TerminalBlock_bornier-2_P5.08mm</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="+" name="Pin_1" type="power_out"/>
+        <pin num="-" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery">
+      <description>Multiple-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">V3</field>
+        <field name="Value">9V Battery</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="power_out"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_Small">
+      <description>Two pin crystal, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_Photo_NPN">
+      <description>NPN phototransistor, collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_Photo_NPN</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4007">
+      <description>1000V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega328P-P">
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">ATmega328P-PU</field>
+        <field name="Footprint">Package_DIP:DIP-28_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RESET}" type="bidirectional"/>
+        <pin num="2" name="D0(RX)" type="free"/>
+        <pin num="3" name="D1(TX)" type="free"/>
+        <pin num="4" name="D2" type="free"/>
+        <pin num="5" name="D3(PWM)" type="free"/>
+        <pin num="6" name="D4" type="free"/>
+        <pin num="7" name="VCC" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="OSC1" type="bidirectional"/>
+        <pin num="10" name="OSC2" type="bidirectional"/>
+        <pin num="11" name="D5(PWM)" type="free"/>
+        <pin num="12" name="D6(PWM)" type="free"/>
+        <pin num="13" name="D7" type="free"/>
+        <pin num="14" name="D8" type="bidirectional"/>
+        <pin num="15" name="D9(PWM)" type="bidirectional"/>
+        <pin num="16" name="D10(PWM)" type="bidirectional"/>
+        <pin num="17" name="D11(PWM)" type="bidirectional"/>
+        <pin num="18" name="D12" type="free"/>
+        <pin num="19" name="D13" type="bidirectional"/>
+        <pin num="20" name="AVCC" type="passive"/>
+        <pin num="21" name="AREF" type="passive"/>
+        <pin num="22" name="GND" type="passive"/>
+        <pin num="23" name="A0" type="free"/>
+        <pin num="24" name="A1" type="free"/>
+        <pin num="25" name="A2" type="free"/>
+        <pin num="26" name="A3" type="free"/>
+        <pin num="27" name="A4" type="input"/>
+        <pin num="28" name="A5" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="LM2576T-5">
+      <description>5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2576.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">LM2576T-5</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-5_Vertical</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2576.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="~{ON}/OFF" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="Relay_SPST-NO">
+      <description>Relay SPST, Normally Open, EN50005</description>
+      <docs>https://www.altronics.com.au/p/s4252b-7.5a-24vdc-spst-pcb-mount-relay/</docs>
+      <footprints>
+        <fp>Relay?SPST*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K1</field>
+        <field name="Value">SPST Relay</field>
+        <field name="Datasheet">https://www.altronics.com.au/p/s4252b-7.5a-24vdc-spst-pcb-mount-relay/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Current" part="A1369xUA-10">
+      <description>Programmable Linear Hall Effect Sensor, -8.5 to -12.5mV/G, SIP-3</description>
+      <docs>http://www.allegromicro.com/~/media/Files/Datasheets/A1369-Datasheet.ashx?la=en</docs>
+      <footprints>
+        <fp>Allegro*SIP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U5</field>
+        <field name="Value">UGN3503UA</field>
+        <field name="Footprint">Sensor_Current:Allegro_SIP-3</field>
+        <field name="Datasheet">http://www.allegromicro.com/~/media/Files/Datasheets/A1369-Datasheet.ashx?la=en</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="input"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="VO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPST">
+      <description>Double Pole Single Throw (DPST) Switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">SW_DPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW3</field>
+        <field name="Value">SPST Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC547">
+      <description>0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC550-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="customSymbols" part="latching_pushbutton">
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">Latching Pushbotton</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="input"/>
+        <pin num="2" name="V-" type="input"/>
+        <pin num="3" name="V+" type="power_out"/>
+        <pin num="4" name="V-" type="passive"/>
+        <pin num="5" name="A" type="input"/>
+        <pin num="6" name="B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="customSymbols" part="solenoid">
+      <fields>
+        <field name="Reference">L9</field>
+        <field name="Value">12V solenoid</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="customSymbols" part="voltmeter_display">
+      <fields>
+        <field name="Reference">DS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="5V" type="input"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_LED-Indication-Discrete" part="151033RS03000">
+      <description>LED RED CLEAR 3MM ROUND T/H</description>
+      <docs>https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">151033RS03000</field>
+        <field name="Footprint">digikey-footprints:LED_3mm_Radial</field>
+        <field name="Datasheet">https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</field>
+        <field name="Digi-Key_PN">732-5013-ND</field>
+        <field name="MPN">151033RS03000</field>
+        <field name="Category">Optoelectronics</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="DK_Datasheet_Link">https://katalog.we-online.de/led/datasheet/151033RS03000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003</field>
+        <field name="Description">LED RED CLEAR 3MM ROUND T/H</field>
+        <field name="Manufacturer">Wurth Electronics Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="voltageBoost" part="voltageBoostModule">
+      <description>Boost PFC and SMPS Control IC, Critical Conduction Mode, SOT-23-5</description>
+      <docs>https://www.infineon.com/dgdl/irs2505lpbf.pdf?fileId=5546d462533600a40153567ad42c2819</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">V2</field>
+        <field name="Value">405V Boost Converter</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/irs2505lpbf.pdf?fileId=5546d462533600a40153567ad42c2819</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN+" type="input"/>
+        <pin num="2" name="VIN-" type="input"/>
+        <pin num="3" name="VOUT-" type="output"/>
+        <pin num="4" name="VOUT+" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Cherry_MX">
+      <uri>C:/Users/1091560/OneDrive - Christ Church Grammar School/Computer Stuff/Desktop/folder/engineering studies/electromagnetic mass driver/electromagneticMassDriver/cherryMX/Cherry_MX.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_Microchip_ATmega.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Relay">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Relay.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Current">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Current.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="customSymbols">
+      <uri>C:/Users/1091560/OneDrive - Christ Church Grammar School/Computer Stuff/Documents/KiCad/7.0/symbols/customSymbols.kicad_sym</uri>
+    </library>
+    <library logical="dk_LED-Indication-Discrete">
+      <uri>C:/Users/1091560/OneDrive - Christ Church Grammar School/Computer Stuff/Documents/Downloads/digikey-kicad-library-master/digikey-symbols/dk_LED-Indication-Discrete.lib</uri>
+    </library>
+    <library logical="voltageBoost">
+      <uri>C:/Users/1091560/OneDrive - Christ Church Grammar School/Computer Stuff/Desktop/file/engineering studies/electromagnetic mass driver/electromagneticMassDriver/voltageBoost.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="5Va">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pintype="passive"/>
+      <node ref="DS1" pin="2" pinfunction="5V" pintype="input"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="2" name="5Vd">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="L8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="20" pinfunction="AVCC" pintype="passive"/>
+      <node ref="U3" pin="21" pinfunction="AREF" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="VCC" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="FB" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="VI" pintype="input"/>
+    </net>
+    <net code="3" name="12V">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q10" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q12" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q9" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="4" name="20V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="V+" pintype="power_out"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VI" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="5" name="405V+">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D30" pin="1" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="DS1" pin="1" pinfunction="VIN" pintype="input"/>
+      <node ref="V2" pin="4" pinfunction="VOUT+" pintype="output"/>
+    </net>
+    <net code="6" name="405V-">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="V2" pin="3" pinfunction="VOUT-" pintype="output"/>
+    </net>
+    <net code="7" name="Earth">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D15" pin="2" pintype="passive"/>
+      <node ref="D16" pin="2" pintype="passive"/>
+      <node ref="D17" pin="2" pintype="passive"/>
+      <node ref="D3" pin="2" pintype="passive"/>
+      <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="2" pintype="passive"/>
+      <node ref="D7" pin="2" pintype="passive"/>
+      <node ref="DS1" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="K1" pin="3" pintype="passive"/>
+      <node ref="L9" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="Q10" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q11" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="V-" pintype="passive"/>
+      <node ref="SW2" pin="1" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="~{ON}/OFF" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="~{ON}/OFF" pintype="input"/>
+      <node ref="U3" pin="22" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="~{ON}/OFF" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="V2" pin="2" pinfunction="VIN-" pintype="input"/>
+      <node ref="V3" pin="2" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VO" pintype="output"/>
+    </net>
+    <net code="9" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K1" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="VO" pintype="output"/>
+    </net>
+    <net code="13" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D9-K)">
+      <node ref="D10" pin="1" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D11-K)">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D13-K)">
+      <node ref="D10" pin="2" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D14-K)">
+      <node ref="D12" pin="2" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D15-Pad1)">
+      <node ref="D15" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D16-Pad1)">
+      <node ref="D16" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D17-Pad1)">
+      <node ref="D17" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D18-Pad1)">
+      <node ref="D18" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D19-Pad1)">
+      <node ref="D19" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D20-Pad1)">
+      <node ref="D20" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D21-K)">
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D22" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D23-K)">
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D24" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D25-K)">
+      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D26" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D27-K)">
+      <node ref="D22" pin="2" pintype="passive"/>
+      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D28-K)">
+      <node ref="D24" pin="2" pintype="passive"/>
+      <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D29-K)">
+      <node ref="D26" pin="2" pintype="passive"/>
+      <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D30-Pad2)">
+      <node ref="D30" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D31-A)">
+      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="35" name="Net-(D32-K)">
+      <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L9" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="Q12" pin="3" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(Q1-B)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(Q1-E)">
+      <node ref="D10" pin="3" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(Q2-B)">
+      <node ref="D8" pin="2" pintype="power_out"/>
+      <node ref="Q2" pin="2" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(Q2-E)">
+      <node ref="D12" pin="3" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(Q5-B)">
+      <node ref="D18" pin="2" pintype="power_out"/>
+      <node ref="Q5" pin="2" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(Q5-E)">
+      <node ref="D22" pin="3" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(Q6-B)">
+      <node ref="D19" pin="2" pintype="power_out"/>
+      <node ref="Q6" pin="2" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="43" name="Net-(Q6-E)">
+      <node ref="D24" pin="3" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(Q7-B)">
+      <node ref="D20" pin="2" pintype="power_out"/>
+      <node ref="Q7" pin="2" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(Q7-E)">
+      <node ref="D26" pin="3" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(Q11-B)">
+      <node ref="Q11" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(Q11-C)">
+      <node ref="D30" pin="3" pintype="passive"/>
+      <node ref="Q11" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(Q12-B)">
+      <node ref="Q12" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(SW4-Pad1)">
+      <node ref="SW1" pin="5" pinfunction="A" pintype="input"/>
+      <node ref="SW4" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(SW4-Pad2)">
+      <node ref="SW1" pin="6" pinfunction="B" pintype="input"/>
+      <node ref="SW4" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(SW5-A)">
+      <node ref="SW5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="V3" pin="1" pinfunction="+" pintype="power_out"/>
+    </net>
+    <net code="53" name="Net-(SW5-B)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="B" pintype="power_out"/>
+      <node ref="U4" pin="1" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="54" name="Net-(U3-D13)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="19" pinfunction="D13" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="Net-(U3-OSC1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="OSC1" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(U3-OSC2)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="OSC2" pintype="bidirectional"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(U3-~{RESET})">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="~{RESET}" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="Net-(U5-VO)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="VO" pintype="output"/>
+    </net>
+    <net code="59" name="Net-(V1-Pin_1)">
+      <node ref="SW1" pin="1" pinfunction="V+" pintype="input"/>
+      <node ref="V1" pin="+" pinfunction="Pin_1" pintype="power_out"/>
+    </net>
+    <net code="60" name="Net-(V1-Pin_2)">
+      <node ref="SW1" pin="2" pinfunction="V-" pintype="input"/>
+      <node ref="V1" pin="-" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(V2-VIN+)">
+      <node ref="K1" pin="4" pintype="passive"/>
+      <node ref="V2" pin="1" pinfunction="VIN+" pintype="input"/>
+    </net>
+    <net code="62" name="bleed">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="D9(PWM)" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="charge">
+      <node ref="K1" pin="2" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="D11(PWM)" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="discharge">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="D10(PWM)" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="hallEffect">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="U3" pin="28" pinfunction="A5" pintype="input"/>
+    </net>
+    <net code="66" name="receiverIR">
+      <node ref="Q3" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="U3" pin="27" pinfunction="A4" pintype="input"/>
+    </net>
+    <net code="67" name="solenoid">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="unconnected-(U3-A0-Pad23)">
+      <node ref="U3" pin="23" pinfunction="A0" pintype="free"/>
+    </net>
+    <net code="69" name="unconnected-(U3-A1-Pad24)">
+      <node ref="U3" pin="24" pinfunction="A1" pintype="free"/>
+    </net>
+    <net code="70" name="unconnected-(U3-A2-Pad25)">
+      <node ref="U3" pin="25" pinfunction="A2" pintype="free"/>
+    </net>
+    <net code="71" name="unconnected-(U3-A3-Pad26)">
+      <node ref="U3" pin="26" pinfunction="A3" pintype="free"/>
+    </net>
+    <net code="72" name="unconnected-(U3-D0(RX)-Pad2)">
+      <node ref="U3" pin="2" pinfunction="D0(RX)" pintype="free"/>
+    </net>
+    <net code="73" name="unconnected-(U3-D1(TX)-Pad3)">
+      <node ref="U3" pin="3" pinfunction="D1(TX)" pintype="free"/>
+    </net>
+    <net code="74" name="unconnected-(U3-D2-Pad4)">
+      <node ref="U3" pin="4" pinfunction="D2" pintype="free"/>
+    </net>
+    <net code="75" name="unconnected-(U3-D3(PWM)-Pad5)">
+      <node ref="U3" pin="5" pinfunction="D3(PWM)" pintype="free"/>
+    </net>
+    <net code="76" name="unconnected-(U3-D4-Pad6)">
+      <node ref="U3" pin="6" pinfunction="D4" pintype="free"/>
+    </net>
+    <net code="77" name="unconnected-(U3-D5(PWM)-Pad11)">
+      <node ref="U3" pin="11" pinfunction="D5(PWM)" pintype="free"/>
+    </net>
+    <net code="78" name="unconnected-(U3-D6(PWM)-Pad12)">
+      <node ref="U3" pin="12" pinfunction="D6(PWM)" pintype="free"/>
+    </net>
+    <net code="79" name="unconnected-(U3-D7-Pad13)">
+      <node ref="U3" pin="13" pinfunction="D7" pintype="free"/>
+    </net>
+    <net code="80" name="unconnected-(U3-D12-Pad18)">
+      <node ref="U3" pin="18" pinfunction="D12" pintype="free"/>
+    </net>
+  </nets>
+</export>
