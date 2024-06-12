@@ -59,9 +59,9 @@ class WidgetGallery(QDialog):
             R = resistance.value(); sV = safeVoltage.value()
             energy = (0.5*C*(V**2))*Eff
             speed = sqrt((2*energy)/m)
-            height = energy/(9.80665*m)
+            height = energy/(9.81*m)
             time = -R*C*log(sV/V)
-            power = (V**2)/1000
+            power = (V**2)/R
             if alternate == True:
                 speed *= 3.6
                 units = "km/h"
