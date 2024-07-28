@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model LM2576T-5.0_NOPB
+#/294224/1440701/2.50/5/3/Integrated Circuit
+DEF LM2576T-5.0_NOPB IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "LM2576T-5.0_NOPB" 950 200 50 H V L CNN
+F2 "LM2576T50NOPB" 950 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/lm2576.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1699839865419&ref_url=https%253A%252F%252Fwww.mouser.kr%252F" 950 0 50 H I L CNN
+F4 "Stepdown switch regulator,LM2576T-5 5.8A Texas Instruments, LM2576T-5.0/NOPB Step-Down Switching Regulator 5.8A, 5 V, 5-Pin TO-220, Buck Controller" 950 -100 50 H I L CNN "Description"
+F5 "16.51" 950 -200 50 H I L CNN "Height"
+F6 "926-LM2576T-5.0/NOPB" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2576T-5.0-NOPB?qs=X1J7HmVL2ZE00R3IkTMYRw%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LM2576T-5.0/NOPB" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VIN 1 0 0 200 R 50 50 0 0 P
+X OUTPUT 2 0 -100 200 R 50 50 0 0 P
+X GROUND 3 0 -200 200 R 50 50 0 0 P
+X FEEDBACK 4 0 -300 200 R 50 50 0 0 P
+X ~ON~/OFF 5 0 -400 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CLA50E1200HB
+D IXYS, CLA50E1200HB, Thyristor, 1200V 50A, 80mA 3-Pin, TO-247
+K
+F http://ixapps.ixys.com/DataSheet/CLA50E1200HB.pdf
+$ENDCMP
+#
+#End Doc Library

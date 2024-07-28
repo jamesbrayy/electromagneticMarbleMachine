@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM2576T-5.0_NOPB
+D Stepdown switch regulator,LM2576T-5 5.8A Texas Instruments, LM2576T-5.0/NOPB Step-Down Switching Regulator 5.8A, 5 V, 5-Pin TO-220, Buck Controller
+K
+F https://www.ti.com/lit/ds/symlink/lm2576.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1699839865419&ref_url=https%253A%252F%252Fwww.mouser.kr%252F
+$ENDCMP
+#
+#End Doc Library

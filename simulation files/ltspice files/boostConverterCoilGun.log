@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\1091560\OneDrive - Christ Church Grammar School\Computer Stuff\Desktop\folder\engineering studies\electromagneticMarbleMachine\simulation files\ltspice files\boostConverterCoilGun.asc
-Start Time: Sun Jun  9 19:07:43 2024
+Start Time: Tue Jul 16 20:26:04 2024
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -14,12 +14,6 @@ WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton fo
 WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton for v6.  Increasing period to 10.002
 Direct Newton iteration for .op point succeeded.
 Heightened Def Con from 2 to 2
-Heightened Def Con from 8 to 8
-Heightened Def Con from 10.175 +++++++++++++++++to 10.175
-Heightened Def Con from 10.175 to 10.175
-Heightened Def Con from 14 to 14
-Heightened Def Con from 14 to 14
-Heightened Def Con from 20 to 20
-Heightened Def Con from 20 to 20
-Total elapsed time: 27.188 seconds.
+Heightened Def Con from 8 ++to 8
+Total elapsed time: 13.465 seconds.
 
