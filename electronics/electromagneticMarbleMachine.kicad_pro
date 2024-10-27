@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.2,
-          "height": 2.2,
-          "width": 2.2
+          "drill": 1.6,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -51,8 +51,19 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "missing_courtyard|149700000|231150000|5983d8f3-c511-4695-9cd9-81a8f57e9b5c|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|285000000|150000000|4f314334-d3d0-464f-9a58-7405159b7b3a|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|285000000|150000000|9c0025b5-a3eb-4a6d-8d8e-7807aea879f8|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|95000000|150000000|d35c9989-966b-4ab5-bc86-01be153baec4|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -70,7 +81,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -80,19 +91,19 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -110,24 +121,24 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 1.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.16,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.16,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -173,7 +184,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.5,
+        1.27,
+        5.0,
+        10.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -200,7 +217,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -417,9 +439,9 @@
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
+      "pin_not_driven": "warning",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
       "unannotated": "error",
@@ -429,7 +451,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "custom"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -468,11 +492,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../../../../Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "C:/Users/1091560/OneDrive - Christ Church Grammar School/idk/",
       "vrml": ""
     },
     "page_layout_descr_file": ""

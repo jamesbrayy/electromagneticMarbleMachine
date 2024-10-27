@@ -1,13 +1,26 @@
+#include <SPI.h>
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+#include <math.h>
+
+#define OLED_RESET 4
+Adafruit_SSD1306 display(OLED_RESET);
+
 unsigned long solenoidMillis, dischargeMillis, currentMillis;  // defines 3 variables to allow for precise timing without the limitations of the 'delay()' function
 const int solenoidPulse = 500, dischargePulse = 100; // defines and assigns pulse lengths for the solenoid and firing coils respectively (in ms)
-const int timeBetweenLaunches = 5000; // defines and assigns the minimum time between shots to ensure that the capacitors have a chance to fully charge before firing (in ms)
-
-const int receiverIR = A4, hallEffect = A5; // defines the two input pin numbers
+const int potentiometer = A0, receiverIR = A1, hallEffect = A2, voltmeter = A3; // defines the three input pin numbers
 const int solenoid = 8, bleed = 9, discharge = 10, charge = 11, indicatorLED = 13; // defines the five output pin numbers
+float capacitorVoltage = 0;
 
 void setup() { // runs once at the start of the code  
-  pinMode(hallEffect, INPUT); // sets the receiverIR and hallEffect pins to INPUT mode
+  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
+  display.display();
+  delay(1000);
+  
+  pinMode(hallEffect, INPUT);
   pinMode(receiverIR, INPUT);
+  pinMode(voltmeter, INPUT);
   
   pinMode(solenoid, OUTPUT); // sets the solenoid, bleed, discharge, charge, and indicatorLED pins to OUTPUT mode
   pinMode(bleed, OUTPUT);
@@ -23,8 +36,9 @@ void setup() { // runs once at the start of the code
 
 void loop() { // runs after 'setup()' until power is removed or the 'RESET' pin is grounded via a pushbbotton
   currentMillis = millis(); // assigns the time since the code was initialised in ms to the variable 'currentMillis'
+  capacitorVoltage = int(analogRead(voltmeter)*91);
   
-  if (analogRead(hallEffect) > 614 && digitalRead(solenoid) == LOW && currentMillis - solenoidMillis >= timeBetweenLaunches) { // reads whether voltage through hall-effect sensor is greater than 3V, the solenoid is LOW, and 5000ms has passed since the last launch
+  if (analogRead(hallEffect) > 614 && digitalRead(solenoid) == LOW && capacitorVoltage >= setVoltage) { // reads whether voltage through hall-effect sensor is greater than 3V, the solenoid is LOW, and the defined voltage has been reached
     digitalWrite(charge, LOW); // sets the 'charge' pin to LOW to ensure the charging circuit is isolated
     digitalWrite(solenoid, HIGH); // sets the 'solenoid' pin to HIGH which activates a relay and triggers a push-type solenoid to push the marble into the firing coils
     solenoidMillis = currentMillis; // starts the solenoid timer so that the pulse length can be modified
@@ -42,21 +56,3 @@ void loop() { // runs after 'setup()' until power is removed or the 'RESET' pin 
     digitalWrite(charge, HIGH); // reenables the charging circuit so that the capacitors can recharge and be ready to discharge again
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
