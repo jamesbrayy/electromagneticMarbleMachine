@@ -10608,6 +10608,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 52.07) (xy 154.94 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e92f30-ce64-443a-aac2-8c51b06c9b63")
+	)
+	(wire
+		(pts
 			(xy 119.38 111.76) (xy 151.13 111.76)
 		)
 		(stroke
@@ -11268,6 +11278,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 35.56) (xy 154.94 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb1bbad-83ac-4c7a-8f1e-d9a21b612024")
+	)
+	(wire
+		(pts
 			(xy 41.91 109.22) (xy 41.91 111.76)
 		)
 		(stroke
@@ -11475,16 +11495,6 @@
 			(type default)
 		)
 		(uuid "c88d49a8-7ba9-4cfc-8145-11cc0ca8acfb")
-	)
-	(wire
-		(pts
-			(xy 153.67 52.07) (xy 152.4 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cad14456-a069-4ade-a9d0-02cafe34bda2")
 	)
 	(wire
 		(pts
@@ -12115,6 +12125,16 @@
 			(type default)
 		)
 		(uuid "f9292f51-17e2-4481-b7d5-9694f557b9d4")
+	)
+	(wire
+		(pts
+			(xy 154.94 52.07) (xy 154.94 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8cfdee-f667-4d6b-91eb-b28ccbed08cd")
 	)
 	(wire
 		(pts
@@ -12902,7 +12922,7 @@
 	)
 	(global_label "405V+"
 		(shape output)
-		(at 153.67 52.07 0)
+		(at 154.94 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12914,7 +12934,7 @@
 		)
 		(uuid "448d022f-8732-4be2-9bdf-b7c8d1156299")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.8048 52.07 0)
+			(at 162.0748 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15145,6 +15165,77 @@
 			(project "electromagneticMarbleMachine"
 				(path "/599574c5-ce89-47df-9d8e-ef9e12b057f6"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 44.45 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "118fbf84-eb83-462b-b8ab-91a9827196e0")
+		(property "Reference" "R37"
+			(at 156.21 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k0Ω"
+			(at 156.21 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 153.162 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c6c04b3-c3dc-49c3-8e64-e68924857be9")
+		)
+		(pin "2"
+			(uuid "242f8235-f638-44a8-b060-306be836e43a")
+		)
+		(instances
+			(project "electromagneticMarbleMachine"
+				(path "/599574c5-ce89-47df-9d8e-ef9e12b057f6"
+					(reference "R37")
 					(unit 1)
 				)
 			)
