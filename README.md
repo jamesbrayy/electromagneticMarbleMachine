@@ -1,5 +1,5 @@
 # electromagneticMarbleMachine
  
-a marble machine with a coil gun to accelerate the marbles. maybe overpowered. we'll see.
-
-<img width="842" alt="schematic" src="https://github.com/poxyping/electromagneticMarbleMachine/assets/83578132/c956ac98-02ba-4e6c-bd35-f5ecf730fed7">
+a marble machine with a five-stage coil gun to accelerate the marbles.
+optimised for ~300V charges (225 J) but capable of up to 405V to give a 10% safety margin (410.0625 J).
+maybe overpowered. we'll see.
