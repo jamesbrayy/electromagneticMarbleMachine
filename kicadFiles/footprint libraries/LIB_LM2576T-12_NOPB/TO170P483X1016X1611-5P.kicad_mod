@@ -250,21 +250,21 @@
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "c6d1cc09-cf4d-4af7-bb53-240f0470f136")
 	)
-	(pad "1" thru_hole rect
-		(at -3.4 0)
+	(pad "1" thru_hole circle
+		(at 3.4 0)
 		(size 2.085 2.085)
 		(drill 1.39)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "5abc6f48-b819-46fb-8fdf-7ea3c24fe712")
+		(uuid "12b5756e-ee51-41c5-8409-3c59834b8be2")
 	)
 	(pad "2" thru_hole circle
-		(at -1.7 -2.1)
+		(at 1.7 -2.1)
 		(size 2.085 2.085)
 		(drill 1.39)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "d7671bc4-0000-493b-8eaf-948a687c2e1d")
+		(uuid "35c97beb-6900-44a5-9655-00f739908f0f")
 	)
 	(pad "3" thru_hole circle
 		(at 0 0)
@@ -275,20 +275,20 @@
 		(uuid "cb742fab-24a1-4e19-98b7-64415d7cec59")
 	)
 	(pad "4" thru_hole circle
-		(at 1.7 -2.1)
+		(at -1.7 -2.1)
 		(size 2.085 2.085)
 		(drill 1.39)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "35c97beb-6900-44a5-9655-00f739908f0f")
+		(uuid "d7671bc4-0000-493b-8eaf-948a687c2e1d")
 	)
-	(pad "5" thru_hole circle
-		(at 3.4 0)
+	(pad "5" thru_hole rect
+		(at -3.4 0)
 		(size 2.085 2.085)
 		(drill 1.39)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "12b5756e-ee51-41c5-8409-3c59834b8be2")
+		(uuid "5abc6f48-b819-46fb-8fdf-7ea3c24fe712")
 	)
 	(model "LM2576T-12_NOPB.stp"
 		(offset

@@ -148,15 +148,11 @@ void discharge() {
   u8g2.print(F("DISCHARGING"));
   u8g2.sendBuffer();
   digitalWrite(solenoidPin, HIGH);
-  delay(1000); // change this to a more respectable value later
+  while (analogRead(receiverIR) < 512);
   digitalWrite(solenoidPin, LOW);
-  while true;
-    if (analogRead(receiverIR) > 512) {
-      digitalWrite(dischargePin, HIGH);
-      delay(1000);
-      digitalWrite(dischargePin, LOW);
-      break;
-    }
+  digitalWrite(dischargePin, HIGH);
+  delay(1000);
+  digitalWrite(dischargePin, LOW);
 }
 
 void drawHeader() {
